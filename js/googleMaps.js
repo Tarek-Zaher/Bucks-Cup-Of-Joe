@@ -1,7 +1,7 @@
 function initMap() {
 
 var icon = {
-  url: "../images/coffee-icon-1.png",
+  url: "images/coffee-icon-1.png",
   scaledSize: new google.maps.Size(50, 50), // scaled size
 };
 
