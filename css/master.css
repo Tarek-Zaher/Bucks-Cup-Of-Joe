@@ -49,7 +49,7 @@ h6 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.75;
   letter-spacing: 1.5px;
   font-family: 'Roboto Mono', monospace;
@@ -177,6 +177,10 @@ footer p {
   font-size: .85rem;
 }
 
+.mr-md-lg-3 {
+  margin-right: 0;
+}
+
 @media (min-width: 992px) {
 
   h2.sm-mobile {
@@ -221,5 +225,14 @@ footer p {
     margin: 0;
     float: left;
     margin-right: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .mr-md-lg-3 {
+    margin-right: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
   }
 }
