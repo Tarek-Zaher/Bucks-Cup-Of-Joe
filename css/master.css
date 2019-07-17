@@ -181,6 +181,62 @@ footer p {
   margin-right: 0;
 }
 
+.waitr-btn {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: .95rem;
+  background-color: #9BC638;
+  border-radius: 50px;
+  width: 289px;
+  height: auto;
+  position: relative;
+}
+.waitr-btn span {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.doordash-btn {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: .95rem;
+  background-color: #ED3833;
+  border-radius: 50px;
+  width: 289px;
+  height: auto;
+  position: relative;
+}
+.doordash-btn span {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.order-online-btn {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: .8rem;
+  background-color: #7d2128;
+  border-radius: 50px;
+  width: 142px;
+  height: auto;
+  position: relative;
+}
+
+.tooltip-underline {
+  border-bottom: 2px dotted #3b4140;
+  color: inherit;
+}
+.tooltip-underline:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
 @media (min-width: 992px) {
 
   h2.sm-mobile {
