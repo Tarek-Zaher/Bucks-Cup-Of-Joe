@@ -17,6 +17,11 @@ h2 {
 }
 
 h2.sm-mobile {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+h2.long-title {
   font-size: 1.9rem;
   letter-spacing: 2px;
 }
@@ -245,7 +250,8 @@ footer p {
 .hovering-image {
   position: relative;
   height: 380px;
-  width: 285px;
+  /* width: 285px; */
+  width: 250px;
   margin-top: -20px;
 }
 
@@ -257,6 +263,11 @@ footer p {
 @media (min-width: 992px) {
 
   h2.sm-mobile {
+    font-size: 4rem;
+    letter-spacing: 4px;
+  }
+
+  h2.long-title {
     font-size: 4rem;
     letter-spacing: 4px;
   }
@@ -303,6 +314,7 @@ footer p {
   .hovering-image {
     position: absolute;
     margin-top: -40px;
+    width: 285px;
   }
 
   .hovering-image-container {
