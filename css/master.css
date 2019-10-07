@@ -249,9 +249,10 @@ footer p {
 
 .hovering-image {
   position: relative;
-  height: 380px;
-  /* width: 285px; */
+  height: 320px;
   width: 250px;
+  /* height: 480px;
+  width: 360px; */
   margin-top: -20px;
 }
 
@@ -314,11 +315,14 @@ footer p {
   .hovering-image {
     position: absolute;
     margin-top: -40px;
-    width: 285px;
+    /* width: 285px; */
+    width: 360px;
+    height: 480px;
   }
 
   .hovering-image-container {
     margin-right: 110px;
+    padding-left: 0 !important;
   }
 
   .section-spacing {
