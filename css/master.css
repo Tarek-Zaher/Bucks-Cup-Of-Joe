@@ -197,7 +197,7 @@ footer p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: .95rem;
-  background-color: #9BC638;
+  background-color: #7d2128;
   border-radius: 50px;
   width: 289px;
   height: auto;
@@ -208,7 +208,7 @@ footer p {
   letter-spacing: 2px;
 }
 
-.doordash-btn {
+/* .doordash-btn {
   text-align: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
@@ -223,7 +223,7 @@ footer p {
 .doordash-btn span {
   font-size: 1.1rem;
   letter-spacing: 2px;
-}
+} */
 
 .order-online-btn {
   text-align: center;
